@@ -12,8 +12,6 @@ import java.util.List;
 
 import less2020.dominio.EntidadeDominio;
 import less2020.dominio.IEntidade;
-import less2020.dominio.Marca;
-import less2020.dominio.Modelo;
 import less2020.dominio.Produto;
 
 public class ProdutoDAO extends AbstractJdbcDAO {

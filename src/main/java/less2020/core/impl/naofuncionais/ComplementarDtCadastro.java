@@ -8,6 +8,7 @@ import less2020.dominio.IEntidade;
 
 public class ComplementarDtCadastro implements IStrategy {
 
+	@SuppressWarnings("null")
 	@Override
 	public String processar(IEntidade entidade) {		
 		

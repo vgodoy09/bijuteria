@@ -131,6 +131,7 @@ public class Servlet extends HttpServlet {
 		doProcessRequest(request, response);
 	}
 
+	@SuppressWarnings("static-access")
 	protected void doProcessRequest(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
