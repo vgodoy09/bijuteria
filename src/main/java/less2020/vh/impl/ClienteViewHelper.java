@@ -22,9 +22,9 @@ public class ClienteViewHelper implements IViewHelper {
 	 * @see les22018.controle.web.vh.IViewHelper#getEntidade(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
 	 */
 	public EntidadeDominio getEntidade(HttpServletRequest request) {
-		String nome = request.getParameter("txtNome");
-		String cpf = request.getParameter("txtCpf");
-		String id = request.getParameter("txtId");
+		String nome = "Thiago";//request.getParameter("txtNome");
+		String cpf = "809890890";//request.getParameter("txtCpf");
+		String id = "1";//request.getParameter("txtId");
 		
 		
 		Cliente c = new Cliente();

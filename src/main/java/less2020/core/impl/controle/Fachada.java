@@ -66,6 +66,7 @@ public class Fachada implements IFachada {
 		daos.put(Modelo.class.getName(), modDAO);
 		
 		
+		
 		/* Criando inst�ncias de regras de neg�cio a serem utilizados*/		
 		ValidadorDadosObrigatoriosFornecedor vrDadosObrigatoriosFornecedor = new ValidadorDadosObrigatoriosFornecedor();
 		ValidadorCnpj vCnpj = new ValidadorCnpj();
